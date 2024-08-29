@@ -6,7 +6,7 @@ menuDef {
 	name "healthIndicator"
 	fullScreen MENU_FALSE
 	visible MENU_TRUE
-	rect 8 396 125 32
+	rect 8 389 125 32
     ownerdrawflag 0
 	
 	itemDef {
@@ -39,7 +39,7 @@ menuDef {
 	name "armorIndicator"
 	fullScreen MENU_FALSE
 	visible MENU_TRUE
-	rect 28 438 73 25
+	rect 28 431 73 25
     ownerdrawflag 0
 	itemDef {
 		name "armorIndicatorIcon" 
@@ -127,7 +127,7 @@ menuDef {
 	name "ammoIndicator"
 	fullScreen MENU_FALSE
 	visible MENU_TRUE
-	rect 255 430 125 32 // area
+	rect 255 426 125 32 // area
 	ownerdrawflag 0
 	itemDef {
 		name "ammoIndicatorIcon" 
