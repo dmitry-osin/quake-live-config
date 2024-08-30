@@ -160,7 +160,7 @@ menuDef {
 	name "powerupIndicator"
 	fullScreen MENU_FALSE
 	visible MENU_TRUE
-	rect 3 11 60 26 
+	rect 2 153 60 26 
 	
 	itemDef {
 		name "powerupIndicatorArea"
@@ -181,7 +181,7 @@ menuDef {
 	name "obits"
 	fullScreen MENU_FALSE
 	visible MENU_TRUE
-	rect 79 16 74 15 
+	rect 5 15 74 15 
 
 	itemDef {
 		name "obituaries"
@@ -645,11 +645,11 @@ menuDef {
 	name "playerItem"
 	fullScreen MENU_FALSE
 	visible MENU_TRUE
-	rect 6 117 24 24 
+	rect 0 121 28 28 
 
 	itemDef {
       	name "playerItemIcon"
-      	rect 0 0 24 24 
+      	rect 0 0 28 28 
 		visible 1
 		decoration
 		ownerdraw CG_PLAYER_ITEM  
@@ -664,7 +664,7 @@ menuDef {
 	name "CTFPowerupIndicator"
 	fullScreen MENU_FALSE
 	visible MENU_TRUE
-	rect 6 49 24 24 
+	rect 3 57 24 24 
 	
 	itemDef {
       	name "CTFPOWERUP"
@@ -682,7 +682,7 @@ menuDef {
 	name "flagIndicator"
 	fullScreen MENU_FALSE
 	visible MENU_TRUE
-	rect 6 83 24 24 
+	rect 3 90 24 24 
 	ownerdrawflag CG_SHOW_IF_PLYR_IS_ON_RED
 	
 	itemDef {
@@ -711,7 +711,7 @@ menuDef {
 	name "flagIndicator"
 	fullScreen MENU_FALSE
 	visible MENU_TRUE
-	rect 6 83 24 24 
+	rect 3 90 24 24 
 	ownerdrawflag CG_SHOW_IF_PLYR_IS_ON_BLUE
 	
 	itemDef {
